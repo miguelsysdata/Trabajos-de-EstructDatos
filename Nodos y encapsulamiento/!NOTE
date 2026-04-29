@@ -1,0 +1,45 @@
+> [!NOTE]
+> Clase del miércoles 29 de Abril
+
+Las listas sirven para almacenar una cantidad de elementos determinada. 
+
+Se utilizan cuando se va a guardar variables, como cadenas de texto, caracteres y números 
+
+[a][b][c][1][2][3][123.154][695.201][Asado][Perico] 
+
+Los nodos sirven como implementación de selección de una lista, con estos, puedo seleccionar 
+una "casilla" de la lista, decidir si la voy a mover, agregar una "casilla" al lado izq o der,
+o eliminar la "casilla" seleccionada. 
+
+/*
+    struct Nodo { 
+
+      int dato; 
+
+      Nodo* siguiente; 
+
+    }; 
+*/
+
+Los nodos también se pueden conectar entre sí, tipo "colas" 
+
+[A][1625]  -->  [B][6320]   -->   [C][1025]   -->   [D][5023] 
+
+Se utilizan apuntadores (*) para acceder al elemento de la dirección de memoria. 
+También se usa ampersan (&)  para acceder a la dirección de memoria de una "casilla" específica. 
+
+Ejemplo: 
+Los apuntadores "o mechas" son la llave de una casa, mientras que el ampersan (&) es la dirección de la casa. 
+Si tengo ambos, puedo entrar a la casa y tomar ejemplo, el televisor. 
+
+/*
+    int x = 10; 
+    int* ptr = &x; 
+*/
+
+x guarda el valor 10  
+ptr guarda la dirección de x  
+&x significa “dirección de x”  
+*ptr significa “el valor al que apunta ptr” → sería 10 
+
+ 
