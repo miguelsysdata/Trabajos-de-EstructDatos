@@ -23,7 +23,7 @@ o eliminar la "casilla" seleccionada.
 
 Los nodos también se pueden conectar entre sí, tipo "colas" 
 
-[A][1625]  -->  [B][6320]   -->   [C][1025]   -->   [D][5023] 
+[A][1625]  -->  [B][6320]   -->   [C][1025]   -->   [D][5023]  -->  NULL
 
 Se utilizan apuntadores (*) para acceder al elemento de la dirección de memoria. 
 También se usa ampersan (&)  para acceder a la dirección de memoria de una "casilla" específica. 
